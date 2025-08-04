@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Mini ChatGPT</title>
+<style>
+  body { font-family: Arial; padding: 20px; max-width: 600px; margin: auto; }
+  #chat { border: 1px solid #ccc; padding: 10px; height: 400px; overflow-y: auto; }
+  .user { color: blue; }
+  .bot { color: green; }
+  #inputArea { margin-top: 10px; }
+</style>
+</head>
+<body>
+
+<h2>Mini ChatGPT</h2>
+
+<div id="chat"></div>
+
+<div id="inputArea">
+  <input type="text" id="userInput" placeholder="Ask me anything..." style="width: 80%;" />
+  <button onclick="sendQuestion()">Send</button>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
